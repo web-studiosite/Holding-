@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f5f5f5;
+  color: #111;
+}
+
+.hero {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.highlight {
+  background: #eaeaea;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: white;
+}
