@@ -242,8 +242,8 @@ function setSupabaseConfig(url, apiKey) {
 }
 
 function isSupabaseConfigured() {
-  return SUPABASE_CONFIG.url !== 'https://your-project.supabase.co' && 
-         SUPABASE_CONFIG.apiKey !== 'your-anon-public-api-key';
+  return SUPABASE_CONFIG.url !== 'https://https://imcmslwvsdbpbuvesljr.supabase.co' && 
+         SUPABASE_CONFIG.apiKey !== 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltY21zbHd2c2RicGJ1dmVzbGpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0OTg3OTksImV4cCI6MjA5NDA3NDc5OX0.VQVTKjML2Z2uYS-BC6zokidx-CBehSsZQQ3nJxvMBVs';
 }
 
 async function dbInsertBulk(table, dataArray) {
