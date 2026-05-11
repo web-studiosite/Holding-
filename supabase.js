@@ -34,7 +34,21 @@ function getHeaders() {
 function buildUrl(table, query = '') {
   return `${SUPABASE_CONFIG.url}/rest/v1/${table}${query}`;
 }
+async function testInsert() {
+  try {
+    const result = await SupabaseAPI.insert("produtos", {
+      nome: "Teste Mobile",
+      preco: 100
+    });
 
+    alert("Funcionou! Produto salvo no Supabase");
+    console.log(result);
+
+  } catch (error) {
+    alert("Erro ao salvar");
+    console.error(error);
+  }
+}
 /* ============================================================
    CRUD SUPABASE
 ============================================================ */
