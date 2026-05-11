@@ -5,7 +5,7 @@
 
 const SUPABASE_CONFIG = {
   url: localStorage.getItem('sb_url') || 'https://imcmslwvsdbpbuvesljr.supabase.co',
-  apiKey: localStorage.getItem('sb_key') || 'COLE_AQUI_SUA_ANON_KEY',
+  apiKey: localStorage.getItem('sb_key') || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltY21zbHd2c2RicGJ1dmVzbGpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0OTg3OTksImV4cCI6MjA5NDA3NDc5OX0.VQVTKjML2Z2uYS-BC6zokidx-CBehSsZQQ3nJxvMBVs',
   tables: {
     produtos: 'produtos',
     categorias: 'categorias',
