@@ -1,0 +1,1386 @@
+PROMPT DEFINITIVO FINAL — SHOP ADMINISTRATION ERP SYSTEM
+
+Cria um sistema web ERP profissional, moderno, altamente dinâmico e totalmente funcional chamado:
+
+Shop Administration
+
+Sistema focado em:
+
+Gestão de Loja
+
+Gestão de Armazém
+
+Gestão de Estoque
+
+Inventário Inteligente
+
+Gestão de Inventário
+
+Gestão de Combustível
+
+Bombas de Combustível
+
+Fluxo de Caixa
+
+Controle Financeiro
+
+Reconciliação Inteligente
+
+Gestão de Perdas
+
+Gestão de Roubos
+
+Relatórios Inteligentes
+
+Operação Mobile
+
+Operação Offline + Online
+
+Integração com Supabase
+
+
+
+---
+
+REGRAS OBRIGATÓRIAS
+
+NÃO usar:
+
+Node.js
+
+Build
+
+npm
+
+Vite
+
+React
+
+Frameworks
+
+Compiladores
+
+
+
+---
+
+OBRIGATÓRIO
+
+Gerar:
+
+HTML puro
+
+CSS puro
+
+JavaScript puro
+
+
+Tudo funcionando diretamente no GitHub Pages.
+
+
+---
+
+ESTRUTURA OBRIGATÓRIA
+
+Todos os arquivos devem ficar diretamente na raiz do projeto:
+
+index.html
+style.css
+app.js
+supabase.js
+formulas.js
+
+Sem:
+
+dist/
+
+build/
+
+src/
+
+
+Upload direto no GitHub e funcionamento imediato.
+
+
+---
+
+DESIGN
+
+Criar sistema:
+
+moderno
+
+elegante
+
+empresarial
+
+premium
+
+altamente organizado
+
+rápido
+
+profissional
+
+
+
+---
+
+CORES
+
+Usar:
+
+azul escuro profissional
+
+dourado metálico
+
+branco
+
+cinza moderno
+
+
+Cores vivas mas clássicas.
+
+
+---
+
+FUNDOS
+
+Usar obrigatoriamente:
+
+2 imagens de fundo:
+
+loja/supermercado
+
+posto/bombas de combustível
+
+
+Com overlay escuro profissional.
+
+
+---
+
+INTERFACE
+
+Sistema deve possuir:
+
+sidebar moderna
+
+header premium
+
+dashboard inteligente
+
+cards animados
+
+tabelas modernas
+
+modais elegantes
+
+notificações toast
+
+efeitos suaves
+
+layout extremamente responsivo
+
+otimização mobile-first
+
+
+
+---
+
+MOEDA PADRÃO
+
+Usar obrigatoriamente:
+
+MZN / Metical / MT
+
+Formato:
+
+MT 1.250,00
+
+
+---
+
+SUPABASE
+
+Integrar totalmente com Supabase usando:
+
+URL
+
+anon key
+
+
+
+---
+
+FUNCIONAMENTO HÍBRIDO
+
+Sistema deve funcionar:
+
+online
+
+offline
+
+
+
+---
+
+FALLBACK OFFLINE
+
+Se Supabase falhar:
+
+salvar automaticamente no localStorage
+
+sincronizar posteriormente
+
+
+
+---
+
+DASHBOARD PRINCIPAL
+
+Mostrar:
+
+vendas do dia
+
+caixa
+
+combustível
+
+estoque baixo
+
+inventário
+
+perdas
+
+roubos
+
+reconciliações
+
+movimentações
+
+gráficos
+
+
+
+---
+
+GESTÃO DE PRODUTOS
+
+Campos:
+
+nome
+
+categoria
+
+código automático inteligente
+
+preço compra
+
+preço venda
+
+margem lucro
+
+quantidade
+
+unidade
+
+descrição
+
+
+
+---
+
+CÓDIGO AUTOMÁTICO INTELIGENTE
+
+Código deve:
+
+ser curto
+
+fácil
+
+relacionado ao produto
+
+evitar duplicados
+
+
+Exemplo:
+
+ARR-TJO-25-001
+
+Sistema deve interpretar:
+
+nome
+
+categoria
+
+peso
+
+tamanho
+
+
+
+---
+
+CATEGORIAS
+
+Permitir:
+
+criar
+
+editar
+
+excluir
+
+listar
+
+
+
+---
+
+ESTOQUE
+
+Sistema deve controlar:
+
+entradas
+
+saídas
+
+saldo atual
+
+histórico
+
+alertas automáticos
+
+movimentações
+
+
+
+---
+
+ARMAZÉM
+
+OBRIGATÓRIO possuir:
+
+ADICIONAR STOCK
+
+Função:
+
+aumentar quantidades
+
+atualizar saldo
+
+gerar movimentação
+
+
+
+---
+
+LOJA
+
+Controle:
+
+produtos disponíveis
+
+produtos vendidos
+
+transferências do armazém
+
+
+
+---
+
+SISTEMA DE VENDAS
+
+Permitir:
+
+lançar vendas
+
+descontos
+
+lucro
+
+subtotal
+
+total
+
+histórico
+
+
+
+---
+
+INVENTÁRIO AUTOMÁTICO INTELIGENTE
+
+Sistema deve possuir inventário totalmente automático e integrado.
+
+Toda movimentação deve atualizar automaticamente o inventário em tempo real.
+
+
+---
+
+INVENTÁRIO DEVE SER AFETADO POR:
+
+vendas
+
+perdas
+
+roubos
+
+abastecimentos
+
+entradas
+
+saídas
+
+reconciliações
+
+transferências
+
+ajustes manuais
+
+combustível
+
+fechamento do dia
+
+
+
+---
+
+FUNCIONAMENTO AUTOMÁTICO
+
+Sempre que houver movimentação:
+
+Sistema deve:
+
+recalcular estoque imediatamente
+
+atualizar loja
+
+atualizar armazém
+
+recalcular custo médio
+
+recalcular lucro
+
+atualizar relatórios
+
+atualizar dashboard
+
+
+Tudo automaticamente.
+
+
+---
+
+INVENTÁRIO EM TEMPO REAL
+
+Mostrar:
+
+quantidade atual
+
+valor total em estoque
+
+custo médio
+
+quantidade vendida
+
+perdas
+
+roubos
+
+saldo mínimo
+
+alertas automáticos
+
+
+
+---
+
+ALERTAS AUTOMÁTICOS
+
+Alertar:
+
+estoque baixo
+
+produto zerado
+
+diferenças suspeitas
+
+perdas excessivas
+
+desvios
+
+combustível abaixo do mínimo
+
+
+
+---
+
+TRANSFERÊNCIAS AUTOMÁTICAS
+
+Quando produto sair do armazém para loja:
+
+reduzir armazém
+
+aumentar loja
+
+gerar movimentação automática
+
+
+
+---
+
+HISTÓRICO COMPLETO
+
+Cada movimentação deve registrar:
+
+data
+
+hora
+
+utilizador
+
+tipo
+
+quantidade
+
+saldo anterior
+
+saldo atual
+
+observação
+
+
+
+---
+
+INVENTÁRIO FÍSICO
+
+Criar função:
+
+REALIZAR INVENTÁRIO
+
+Permitir:
+
+contar produtos fisicamente
+
+comparar com sistema
+
+mostrar diferenças
+
+corrigir automaticamente
+
+gerar relatório de divergência
+
+
+
+---
+
+EXPORTAÇÃO DE INVENTÁRIO
+
+Criar botão:
+
+EXPORTAR INVENTÁRIO
+
+Permitir exportar:
+
+PDF
+
+XLSX
+
+CSV
+
+JSON
+
+DOCX
+
+
+
+---
+
+RECONCILIAÇÃO INTELIGENTE
+
+Criar botão global:
+
+RECONCILIAR SISTEMA
+
+
+---
+
+RECONCILIAÇÃO DEVE CONTROLAR:
+
+loja
+
+armazém
+
+perdas
+
+roubos
+
+vendas
+
+combustível
+
+inventário
+
+
+
+---
+
+PROCESSO
+
+Operador:
+
+lança produtos vendidos
+
+manualmente
+
+ou por importação
+
+
+Sistema:
+
+baixa estoque
+
+atualiza loja
+
+atualiza armazém
+
+recalcula saldo
+
+recalcula caixa
+
+recalcula inventário
+
+
+
+---
+
+RESULTADO FINAL OBRIGATÓRIO
+
+Ao terminar reconciliação:
+
+Mostrar:
+
+quantidade restante exata
+
+saldo real
+
+diferenças
+
+perdas
+
+roubos
+
+lucro real
+
+resumo completo
+
+
+
+---
+
+FECHAMENTO DE DIA
+
+Criar sistema completo:
+
+FECHAR DIA
+
+
+---
+
+AO FECHAR DIA
+
+Sistema deve:
+
+salvar resumo diário
+
+consolidar inventário
+
+consolidar reconciliações
+
+consolidar vendas
+
+consolidar combustível
+
+consolidar perdas
+
+consolidar roubos
+
+consolidar caixa
+
+consolidar movimentações
+
+bloquear alterações do dia fechado
+
+gerar relatório diário
+
+preparar próximo dia automaticamente
+
+
+
+---
+
+NOVO DIA AUTOMÁTICO
+
+Criar função:
+
+INICIAR NOVO DIA
+
+Sistema deve:
+
+manter saldos finais corretos
+
+iniciar novo histórico
+
+preservar dados anteriores
+
+reorganizar dashboard
+
+limpar operações pendentes
+
+iniciar caixa diário
+
+iniciar reconciliações do novo dia
+
+
+Tudo automaticamente.
+
+
+---
+
+IMPORTAÇÃO INTELIGENTE
+
+Sistema deve importar:
+
+vendas
+
+estoque
+
+inventário
+
+movimentações
+
+
+
+---
+
+SUPORTAR ATÉ 30 FORMATOS
+
+Incluindo:
+
+XLSX
+
+XLS
+
+CSV
+
+JSON
+
+XML
+
+TXT
+
+PDF
+
+DOCX
+
+ODS
+
+TSV
+
+SQL
+
+
+e outros.
+
+
+---
+
+LEITURA INTELIGENTE
+
+Sistema deve:
+
+detectar formato automaticamente
+
+detectar colunas automaticamente
+
+interpretar dados
+
+corrigir inconsistências
+
+mostrar pré-visualização
+
+confirmar importação
+
+
+
+---
+
+EXPORTAÇÃO UNIVERSAL
+
+Toda página deve possuir:
+
+EXPORTAR
+
+
+---
+
+FORMATOS
+
+Permitir:
+
+PDF
+
+XLSX
+
+CSV
+
+JSON
+
+DOCX
+
+XML
+
+
+
+---
+
+EXPORTAÇÃO DIRETA
+
+Permitir:
+
+baixar arquivo
+
+enviar por email
+
+enviar por WhatsApp
+
+
+
+---
+
+EMAIL
+
+Campo:
+
+Enviar para Email
+
+
+---
+
+WHATSAPP
+
+Campo:
+
+Enviar para WhatsApp
+
+Sistema deve:
+
+gerar arquivo
+
+anexar
+
+abrir compartilhamento automaticamente
+
+
+
+---
+
+PERDAS E ROUBOS
+
+Tanto loja quanto armazém devem possuir:
+
+REGISTRAR PERDA
+
+REGISTRAR ROUBO
+
+Sistema deve:
+
+reduzir estoque
+
+gerar movimentação
+
+atualizar inventário
+
+atualizar saldo real
+
+
+
+---
+
+COMBUSTÍVEL
+
+Sistema completo para:
+
+entradas
+
+saídas
+
+abastecimentos
+
+custos
+
+consumo
+
+perdas
+
+reconciliação
+
+saldo
+
+
+
+---
+
+RELATÓRIOS INTELIGENTES
+
+Gerar:
+
+vendas
+
+estoque
+
+inventário
+
+perdas
+
+roubos
+
+combustível
+
+caixa
+
+lucro
+
+reconciliações
+
+
+
+---
+
+PÁGINA ESPECIAL — GESTOR JUNIOR E CAIXA
+
+Criar uma página especial separada para:
+
+gestor junior
+
+operador de caixa
+
+
+
+---
+
+RESTRIÇÕES OBRIGATÓRIAS
+
+NÃO permitir:
+
+ver lucros
+
+ver margem de lucro
+
+acessar painel do gestor principal
+
+acessar relatórios financeiros completos
+
+acessar configurações críticas
+
+
+
+---
+
+PERMITIR APENAS
+
+visualizar produtos
+
+visualizar loja
+
+visualizar armazém
+
+realizar reconciliações
+
+registrar vendas
+
+registrar perdas
+
+registrar roubos
+
+consultar estoque
+
+consultar inventário
+
+importar vendas
+
+exportar relatórios operacionais
+
+
+
+---
+
+SEGURANÇA
+
+Separar completamente:
+
+painel administrador
+
+painel gestor junior
+
+painel caixa
+
+
+
+---
+
+MOBILE
+
+Sistema deve:
+
+funcionar perfeitamente no celular
+
+ser rápido
+
+touch friendly
+
+altamente otimizado
+
+
+
+---
+
+PERFORMANCE
+
+Sistema deve:
+
+abrir rápido
+
+funcionar offline
+
+evitar travamentos
+
+otimizar carregamentos
+
+
+
+---
+
+GLOBAL API
+
+Criar objeto global:
+
+window.SupabaseAPI
+
+
+---
+
+QUALIDADE FINAL
+
+Sistema deve parecer:
+
+ERP empresarial real
+
+sistema premium
+
+profissional
+
+moderno
+
+altamente confiável
+
+
+
+---
+
+OBRIGATÓRIO
+
+NÃO ignorar nenhuma funcionalidade descrita.
+
+Garantir:
+
+integração total entre módulos
+
+reconciliações funcionais
+
+inventário automático real
+
+atualização automática de estoque
+
+fechamento diário funcional
+
+novo dia automático
+
+persistência real de dados
+
+funcionamento direto no GitHub Pages sem build.
+
+Acrescente ESTE BLOCO ao prompt principal:
+
+# CONTROLE INTELIGENTE DE PRODUTOS DUPLICADOS
+
+O sistema deve impedir automaticamente produtos duplicados.
+
+---
+
+# IDENTIFICAÇÃO INTELIGENTE
+
+Ao adicionar produto, sistema deve verificar:
+- nome
+- código
+- categoria
+- unidade
+- peso/tamanho
+- código de barras
+
+---
+
+# SE PRODUTO JÁ EXISTIR
+
+Sistema NÃO deve criar novo produto automaticamente.
+
+Deve mostrar:
+
+PRODUTO JÁ EXISTE
+
+---
+
+# OPÇÕES AUTOMÁTICAS
+
+Mostrar opções:
+
+- adicionar stock ao produto existente
+- atualizar preço
+- atualizar quantidade
+- editar produto existente
+- cancelar operação
+
+---
+
+# ADICIONAR STOCK
+
+Quando operador adicionar produto já existente:
+
+Sistema deve:
+- somar nova quantidade ao estoque atual
+- atualizar armazém
+- atualizar loja
+- atualizar inventário
+- gerar movimentação automática
+- recalcular custo médio
+- manter histórico
+
+---
+
+# EVITAR DUPLO REGISTO
+
+O sistema deve bloquear:
+- produtos repetidos
+- códigos repetidos
+- produtos com nomes extremamente semelhantes
+
+---
+
+# DETECÇÃO INTELIGENTE
+
+Sistema deve detectar produtos parecidos mesmo com:
+-
+# REGRAS BÁSICAS DE INTEGRIDADE DE DADOS (OBRIGATÓRIO)
+
+## 1. PROIBIÇÃO DE DADOS FALSOS
+
+O sistema NÃO pode:
+- inventar produtos
+- gerar vendas fictícias
+- simular estoque inexistente
+- criar valores automáticos sem base real do utilizador
+- preencher campos obrigatórios com dados “placeholder” finais
+
+---
+
+## 2. FONTE ÚNICA DA VERDADE
+
+A base de dados oficial é sempre o Supabase Supabase.
+
+Regras:
+- Supabase é prioridade máxima
+- localStorage é apenas backup temporário
+- nunca substituir dados reais por fallback se Supabase estiver ativo
+
+---
+
+## 3. CONSERVAÇÃO DE DADOS
+
+O sistema deve garantir:
+- nunca apagar dados sem ação explícita do utilizador
+- nunca sobrescrever registos sem confirmação lógica
+- nunca duplicar registos já existentes no Supabase
+
+---
+
+## 4. SINCRONIZAÇÃO SEGURA
+
+Quando estiver offline:
+- guardar alterações em fila local
+- NÃO considerar dados como finais
+- sincronizar automaticamente ao voltar online
+
+---
+
+## 5. REGRA DE CONFIABILIDADE
+
+Antes de mostrar qualquer dado:
+- verificar se existe no Supabase
+- se não existir, NÃO inventar
+- retornar “sem dados disponíveis” em vez de valores falsos
+
+---
+
+## 6. RECONCILIAÇÃO SEGURA
+
+Durante reconciliação:
+- usar apenas dados reais do Supabase
+- comparar entradas reais vs saídas reais
+- nunca “ajustar automaticamente” sem registo de movimento
+
+---
+
+## 7. AUDITORIA OBRIGATÓRIA
+
+Toda alteração deve registrar:
+- utilizador
+- data e hora
+- tipo de operação
+- valor anterior
+- valor novo
+
+---
+
+## 8. REGRA DE NÃO-CRIAÇÃO AUTOMÁTICA
+
+O sistema NÃO pode:
+- criar produtos automaticamente sem input humano
+- criar vendas automaticamente
+- criar movimentações sem evento real
+
+---
+
+## 9. VALIDAÇÃO ANTES DE GRAVAR
+
+Antes de qualquer INSERT ou UPDATE:
+- validar dados obrigatórios
+- evitar duplicação no Supabase
+- confirmar integridade dos campos
+
+---
+
+## 10. INTEGRIDADE DO INVENTÁRIO
+
+O inventário deve ser sempre:
+- derivado de movimentos reais
+- nunca calculado por suposição
+- sempre rastreável até uma operação
+# CONFIRMAÇÃO OBRIGATÓRIA E FEEDBACK DE AÇÕES
+
+## 1. BOTÃO OBRIGATÓRIO DE CONFIRMAÇÃO
+
+Em TODAS as operações que alterem dados, o sistema deve obrigatoriamente ter um botão de confirmação antes de salvar.
+
+Inclui:
+- criar produto
+- editar produto
+- eliminar produto
+- adicionar stock
+- vender produto
+- registar perda
+- registar roubo
+- reconciliação
+- importação de dados
+- fecho de dia
+- ajustes manuais
+
+---
+
+## 2. PROCESSO DE SALVAMENTO
+
+Nenhuma alteração deve ser aplicada diretamente.
+
+Fluxo obrigatório:
+
+1. Utilizador faz alterações
+2. Sistema mostra pré-visualização das mudanças
+3. Botão obrigatório:
+   - "Confirmar"
+   - "Cancelar"
+
+4. Só após confirmação:
+   - salvar no Supabase
+   - atualizar inventário
+   - atualizar relatórios
+
+---
+
+## 3. FEEDBACK VISUAL OBRIGATÓRIO
+
+Após qualquer operação, o sistema deve mostrar feedback imediato:
+
+Tipos de feedback:
+- sucesso
+- erro
+- aviso
+- informação
+
+---
+
+## 4. EXEMPLOS DE FEEDBACK
+
+✔ "Produto adicionado com sucesso"
+✔ "Stock atualizado corretamente"
+✔ "Reconciliação concluída"
+✖ "Erro ao salvar dados"
+⚠ "Produto já existe no sistema"
+
+---
+
+## 5. NOTIFICAÇÕES VISUAIS (TOAST)
+
+Todas as ações devem gerar notificação temporária na interface:
+- canto superior ou inferior
+- desaparecimento automático
+- cor conforme tipo de ação
+
+---
+
+## 6. PROTEÇÃO CONTRA ERROS ACIDENTAIS
+
+O sistema deve impedir:
+- gravação sem confirmação
+- duplicação por clique duplo
+- submissões automáticas sem revisão
+
+---
+
+## 7. CONSISTÊNCIA COM SUPABASE
+
+A gravação só deve acontecer quando:
+- utilizador confirmar
+- validação estiver correta
+- não houver conflito de duplicação
+
+---
+
+## 8. FEEDBACK DE SINCRONIZAÇÃO
+
+Quando enviar dados para Supabase:
+- mostrar "A sincronizar..."
+- depois "Sincronizado com sucesso"
+- ou "Falha de sincronização"
+
+---
+
+## 9. EXPERIÊNCIA DO UTILIZADOR
+
+Nenhuma ação deve acontecer “em silêncio”.
+
+Tudo deve ter:
+- confirmação
+- feedback
+- resultado visível
