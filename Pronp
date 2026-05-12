@@ -1384,3 +1384,150 @@ Tudo deve ter:
 - confirmação
 - feedback
 - resultado visível
+
+SUPABASE INTEGRATION RULES (MANDATORY)
+
+O sistema deve integrar com Supabase de forma robusta e tolerante a falhas.
+
+1. Inicialização
+
+Usar Supabase com URL e KEY configuráveis no front-end
+
+Permitir atualização dinâmica da configuração sem recarregar o site
+
+Reinicializar o cliente Supabase sempre que a configuração mudar
+
+
+
+---
+
+2. Nomes de tabelas (OBRIGATÓRIO)
+
+Usar exatamente estes nomes no Supabase:
+
+produtos
+
+categorias
+
+vendas
+
+caixa
+
+movimentacoes
+
+transferencias
+
+bombas
+
+perdas
+
+roubos
+
+fechamentos
+
+
+Regras:
+
+minúsculas obrigatórias
+
+sem acentos
+
+sem espaços
+
+sem variações de escrita
+
+
+
+---
+
+3. Carregamento de dados
+
+PROIBIDO usar Promise.all() para carregar dados do Supabase
+
+Cada tabela deve ser carregada individualmente
+
+Cada requisição deve ter try/catch próprio
+
+Em caso de erro, retornar fallback [] sem quebrar o sistema
+
+
+
+---
+
+4. Resiliência do sistema
+
+Nenhuma falha de tabela pode quebrar o sistema global
+
+O sistema deve continuar a funcionar mesmo com tabelas indisponíveis
+
+Cada erro deve ser isolado por módulo
+
+
+
+---
+
+5. Diagnóstico de erro
+
+Logar no console qual tabela falhou
+
+Exibir erro real retornado pelo Supabase
+
+Identificar claramente a origem do problema
+
+
+Formato: ERRO NA TABELA: nome_tabela → mensagem_do_erro
+
+
+---
+
+6. Estrutura das funções Supabase
+
+Cada tabela deve ter função própria:
+
+getProdutos()
+
+getCategorias()
+
+getVendas()
+
+getCaixa()
+
+getMovimentacoes()
+
+getTransferencias()
+
+etc.
+
+
+Cada função deve:
+
+retornar { data: [] } em sucesso
+
+retornar { data: [] } em erro (fallback seguro)
+
+
+
+---
+
+7. Regra geral do sistema
+
+O sistema deve carregar parcialmente se necessário
+
+O dashboard nunca deve bloquear por falha de dados
+
+O sistema deve funcionar mesmo com backend incompleto
+
+Cada módulo deve ser independente
+
+
+
+---
+
+8. Objetivo
+
+Criar integração Supabase resiliente, modular e tolerante a falhas, onde erros são isolados e não comprometem o funcionamento global da aplicação.
+O sistema deve permitir, de forma nativa e automática, a realização de vendas e a conversão de produtos em valores monetários registados no caixa. As vendas podem ser registadas de duas formas: (1) vendas singulares, onde cada transação é registada individualmente com atualização imediata de stock, lucro e caixa; e (2) vendas diárias agregadas, onde múltiplas transações são agrupadas e consolidadas num único registo diário para fins de relatório e fechamento de caixa. Em ambos os casos, o sistema deve garantir atualização automática do estoque, cálculo de lucro, registo no fluxo de caixa e sincronização com a base de dados Supabase em tempo real ou no próximo ciclo de sincronização disponível.
+
+usa essa chave e URL para supabase 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind5ZXNucHRwYW9icmZlcHN6cmRrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0OTg4NjgsImV4cCI6MjA5NDA3NDg2OH0.X4oWiiSP66Wz2-ZI-fU-h9yodTp-LxlrZicEBd__pCQ
+https://wyesnptpaobrfepszrdk.supabase.co
